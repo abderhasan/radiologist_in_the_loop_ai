@@ -28,3 +28,10 @@ Assume your class names are `A` and `B`. In your main project folder, do the fol
 4. Place the images that belong to each class into their respective `A` and `B` folders within the `training`, `validation`, and `test` subfolders. Those images represent the labeled data.
 
 5. The `unlabeled` folder should contain images that have not been assigned to any specific class.
+
+Your folder structure should now look as follows:
+
+<div align="center">
+  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/project_folder.png" alt="project_folder_structure" width="500"/>
+</div>
+
