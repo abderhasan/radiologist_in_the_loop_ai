@@ -53,12 +53,12 @@ Now, run the `simple_classifier.py` script. Once the script finishes running, it
 
 ### Find least confidence scores
 
-To calculate the least confidence score from the probability distribution for each prediction, run the `least_confidence.py` script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
+To calculate the least confidence score from the probability distribution for each prediction, run the `least_confidence_score.py` script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
 
 ```python
 input_csv_file = 'unlabeled_probabilities.csv'
 output_csv_file = 'least_confidence_scores.csv'
 ```
 
-The results in 'least_confidence_scores.csv' will be sorted in ascending order. So, the content in the CSV file would look as follows:
+The results in `least_confidence_scores.csv` will be sorted in ascending order. So, the content in the CSV file would look as follows:
 
