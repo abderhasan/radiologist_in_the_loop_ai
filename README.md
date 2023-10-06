@@ -69,3 +69,7 @@ The results in `least_confidence_scores.csv` will be sorted in ascending order. 
 ### Sample data for labeling
 
 Having calculated the least confidence scores, we will now select the top *N* samples that will be labeled by the domain expert (i.e., radiologist). To accomplish this, you can execute the `select_data.py` script; in this script, the first *50* samples are selected, but you can change the number of samples you would like to select.
+
+### Add new labeled data to the training dataset
+
+In the previous step, you selected a sample of data and labeled it. These newly labeled images would now be added to your existing training dataset. Let's say you chose 50 images to label. If your training data initially contained *2* images, after adding the newly labeled images, your training dataset should now have a total of *52* images.
