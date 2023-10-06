@@ -37,6 +37,10 @@ Your folder structure should now look as follows:
 
 ## Uncertainty sampling (Least confidence sampling)
 
+<div align="center">
+  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.png" alt="project_folder_structure" width="500"/>
+</div>
+
 ### Training the binary classifier
 
 Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. At this stage, ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
