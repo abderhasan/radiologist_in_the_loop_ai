@@ -39,6 +39,6 @@ Your folder structure should now look as follows:
 
 ### Training the binary classifier
 
-Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. Ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
+Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. At this stage, ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
 
 .....
