@@ -63,5 +63,5 @@ output_csv_file = 'least_confidence_scores.csv'
 The results in `least_confidence_scores.csv` will be sorted in ascending order. So, the content in the CSV file would look as follows:
 
 <div align="center">
-  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table_2.png" alt="table" width="250"/>
+  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table_2.png" alt="table" width="500"/>
 </div>
