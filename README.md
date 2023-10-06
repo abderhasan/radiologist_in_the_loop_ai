@@ -4,6 +4,10 @@
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/raw/main/imgs/radiologist_in_the_loop_cover.png" alt="Radiologist-in-the-Loop AI" width="500"/>
 </div>
 
+<div style="background-color: #FFFF00; padding: 10px;">
+<strong>Note:</strong> Please follow this GitHub repository as it will be updated regularly with content relevant to the Radiologist-in-the-loop AI topic.
+</div>
+
 This is the official GitHub repository for the [Radiologist-in-the-Loop AI Tutorial](https://radiologistintheloop.ai/) at MICCAI 2023! This repository serves as a companion to the tutorial, providing resources, code examples, and materials to enhance your learning experience. 🧠💻📚
 
 ## Setup
@@ -60,7 +64,7 @@ input_csv_file = 'unlabeled_probabilities.csv'
 output_csv_file = 'least_confidence_scores.csv'
 ```
 
-The results in `least_confidence_scores.csv` will be sorted in ascending order. So, the content in the CSV file would look as follows:
+The results in `least_confidence_scores.csv` will be sorted in ascending order. So, the content in the CSV file would look something like:
 
 <div align="center">
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table_2.png" alt="table" width="500"/>
