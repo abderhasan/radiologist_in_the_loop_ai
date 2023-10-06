@@ -58,6 +58,7 @@ To calculate the least confidence score from the probability distribution for ea
 ```python
 input_csv_file = 'unlabeled_probabilities.csv'
 output_csv_file = 'least_confidence_scores.csv'
+```
 
 The results in 'least_confidence_scores.csv' will be sorted in ascending order. So, the content in the CSV file would look as follows:
 
