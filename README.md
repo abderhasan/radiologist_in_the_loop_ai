@@ -35,3 +35,8 @@ Your folder structure should now look as follows:
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/project_folder.png" alt="project_folder_structure" width="500"/>
 </div>
 
+## Training the binary classifier
+
+Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. Ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
+
+.....
