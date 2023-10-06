@@ -38,7 +38,7 @@ Your folder structure should now look as follows:
 ## Uncertainty sampling (Least confidence sampling)
 
 <div align="center">
-  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.png" alt="project_folder_structure" width="500"/>
+  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.jpg" alt="uncertainty_sampling" width="500"/>
 </div>
 
 ### Training the binary classifier
