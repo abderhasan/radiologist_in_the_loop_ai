@@ -35,7 +35,7 @@ Your folder structure should now look as follows:
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/project_folder.png" alt="project_folder_structure" width="500"/>
 </div>
 
-## Uncertainty sampling (Least confidence sampling)
+## Uncertainty sampling
 
 <div align="center">
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.jpg" alt="uncertainty_sampling" width="500"/>
