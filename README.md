@@ -45,4 +45,4 @@ Your folder structure should now look as follows:
 
 Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. At this stage, ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
 
-.....
+Now, run the `simple_classifier.py` script. Once the script finishes running, it will output the accuracy of the trained model when applied to the test dataset. Additionally, it will generate a file named `unlabeled_probabilities.csv`. This file contains the probability distribution for the unlabeled images located in your `unlabeled` folder. The format of the CSV file is as follows:
