@@ -41,7 +41,7 @@ Your folder structure should now look as follows:
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.jpg" alt="uncertainty_sampling" width="500"/>
 </div>
 
-### Training the binary classifier
+### Train the binary classifier
 
 Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. At this stage, ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
 
@@ -50,3 +50,11 @@ Now, run the `simple_classifier.py` script. Once the script finishes running, it
 <div align="center">
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table.png" alt="table" width="250"/>
 </div>
+
+### Find least confidence scores
+
+To calculate the least confidence score from the probability distribution for each prediction, run the `least_confidence.py` script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
+
+```python
+input_csv_file = 'unlabeled_probabilities.csv'
+output_csv_file = 'least_confidence_scores.csv'
