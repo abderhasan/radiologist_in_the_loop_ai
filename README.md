@@ -4,10 +4,6 @@
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/raw/main/imgs/radiologist_in_the_loop_cover.png" alt="Radiologist-in-the-Loop AI" width="500"/>
 </div>
 
-<div style="background-color: #FFFF00; padding: 10px;">
-<strong>Note:</strong> Please follow this GitHub repository as it will be updated regularly with content relevant to the Radiologist-in-the-loop AI topic.
-</div>
-
 This is the official GitHub repository for the [Radiologist-in-the-Loop AI Tutorial](https://radiologistintheloop.ai/) at MICCAI 2023! This repository serves as a companion to the tutorial, providing resources, code examples, and materials to enhance your learning experience. 🧠💻📚
 
 ## Setup
