@@ -74,4 +74,4 @@ Having calculated the least confidence scores, we will now select the top *N* sa
 
 In the previous step, you selected a sample of data and labeled it. These newly labeled images would now be added to your existing training dataset. Let's say you chose 50 images to label. If your training data initially contained *2* images, after adding the newly labeled images, your training dataset should now have a total of *52* images.
 
-Once you've completed this step, go ahead and run the `simple_classifier.py` script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you should go back and repeat steps 1 through 4.
+Once you've completed this step, go ahead and run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you should go back and repeat steps 1 through 4.
