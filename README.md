@@ -53,7 +53,7 @@ Now, run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_
 
 ### 2. Find least confidence scores
 
-To calculate the least confidence score from the probability distribution for each prediction, run the `least_confidence_score.py` script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
+To calculate the least confidence score from the probability distribution for each prediction, run the [`least_confidence_score.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/least_confidence_score.py) script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
 
 ```python
 input_csv_file = 'unlabeled_probabilities.csv'
