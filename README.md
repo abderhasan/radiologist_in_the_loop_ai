@@ -86,7 +86,7 @@ Once you've completed this step, go ahead and run the [`simple_classifier.py`](h
 
 This is similar to step 1.1, except that you don't need the [`test_and_save_probabilities_unlabeled()`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py#L125) function in `simple_classifier.py`. So, you can comment out the function from the classifier when working on diversity sampling.
 
-### 2.2. K-means
+### 2.2. K-means (cluster-based sampling)
 
 To categorize unlabeled data into distinct groups, you can use the [`k_means.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/k_means.py) script. In this script, you can specify the number of clusters you want, which is denoted as `k`. For example, in this script `k=5`, which will create 5 clusters. 
 
@@ -97,3 +97,5 @@ The script will generate *k* CSV files, named as `class_1.csv`, `class_2.csv`, .
 </div>
 
 To move the images listed in the CSV files to their respective folders (i.e., class_1, class_1_centroid, class_1_outliers), run [`csv_to_folders_diversity.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/csv_to_folders_diversity.py).
+
+### 2.3. Sample data for labeling
