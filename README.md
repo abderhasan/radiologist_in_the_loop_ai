@@ -126,7 +126,7 @@ Once you have completed this data integration, proceed to run the [`simple_class
 
 ## References
 
-1. Settles, B., 2012. [*Active learning: Synthesis lectures on artificial intelligence and machine learning Uncertainty sampling*](https://link.springer.com/book/10.1007/978-3-031-01560-1). Long Island, NY: Morgan & Clay Pool.
+1. Settles, B., 2012. [*Active learning: Synthesis lectures on artificial intelligence and machine learning*](https://link.springer.com/book/10.1007/978-3-031-01560-1). Long Island, NY: Morgan & Clay Pool.
 
 2. Monarch, R., 2021. [*Human-in-the-Loop machine learning: Active learning and annotation for human-centered AI*](https://www.manning.com/books/human-in-the-loop-machine-learning?experiment=A). Manning Publications Co.
 
