@@ -6,6 +6,9 @@
 
 This is the official GitHub repository for the [Radiologist-in-the-Loop AI Tutorial](https://radiologistintheloop.ai/) at MICCAI 2023! This repository serves as a companion to the tutorial, providing resources, code examples, and materials to enhance your learning experience. 🧠💻📚
 
+<span style="background-color:yellow">**⚠️Attention⚠️:**</span> Please keep an eye on this repository, as it will be regularly updated with relevant content.
+
+
 ## Setup
 
 The code in this repository is meant for performing binary classification, which involves distinguishing between two classes. In the context of the tutorial, the classification task focused on identifying whether a given ultrasound image contains the liver region or not. 
