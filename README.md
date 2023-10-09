@@ -35,13 +35,13 @@ Your folder structure should now look as follows:
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/project_folder.png" alt="project_folder_structure" width="500"/>
 </div>
 
-## Uncertainty sampling
+## 1. Uncertainty sampling
 
 <div align="center">
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/uncertainty_sampling.jpg" alt="uncertainty_sampling" width="500"/>
 </div>
 
-### 1. Train the binary classifier
+### 1.1. Train the binary classifier
 
 Assuming you have images in the `validation` and `test` folders, you can begin by randomly selecting (and assigning labels to) two images from the `unlabeled` folder. At this stage, ensure that one image is assigned to class `A`, and the other image is assigned to class `B`.
 
@@ -51,7 +51,7 @@ Now, run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table.png" alt="table" width="250"/>
 </div>
 
-### 2. Find least confidence scores
+### 1.2. Find least confidence scores
 
 To calculate the least confidence score from the probability distribution for each prediction, run the [`least_confidence_score.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/least_confidence_score.py) script. The primary parameters required for this script are the input and output CSV files. In the script, these are defined as follows:
 
@@ -66,18 +66,22 @@ The results in `least_confidence_scores.csv` will be sorted in ascending order. 
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table_2.png" alt="table" width="500"/>
 </div>
 
-### 3. Sample data for labeling
+### 1.3. Sample data for labeling
 
 Having calculated the least confidence scores, we will now select the top *N* samples that will be labeled by the domain expert (i.e., radiologist). To accomplish this, you can execute the `select_data.py` script; in this script, the first *50* samples are selected, but you can change the number of samples you would like to select.
 
-### 4. Add new labeled data to the training dataset
+### 1.4. Add new labeled data to the training dataset
 
 In the previous step, you selected a sample of data and labeled it. These newly labeled images would now be added to your existing training dataset. Let's say you chose 50 images to label. If your training data initially contained *2* images, after adding the newly labeled images, your training dataset should now have a total of *52* images.
 
-Once you've completed this step, go ahead and run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you should go back and repeat steps 1 through 4.
+Once you've completed this step, go ahead and run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you should go back and repeat steps 1.1 through 1.4.
 
-## Diversity sampling
+## 2. Diversity sampling
 
 <div align="center">
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/diversity_sampling.jpg" alt="uncertainty_sampling" width="500"/>
 </div>
+
+### 2.1. Train the binary classifier
+
+This is similar to step 1.1.
