@@ -66,7 +66,7 @@ The results in `least_confidence_scores.csv` will be sorted in ascending order. 
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/table_2.png" alt="table" width="500"/>
 </div>
 
-### 1.3. Sample data for labeling
+### 1.3. Sample data for domain expert labeling
 
 Having calculated the least confidence scores, we will now select the top *N* samples that will be labeled by the domain expert (i.e., radiologist). To accomplish this, you can execute the `select_data.py` script; in this script, the first *50* samples are selected, but you can change the number of samples you would like to select.
 
@@ -98,4 +98,11 @@ The script will generate *k* CSV files, named as `class_1.csv`, `class_2.csv`, .
 
 To move the images listed in the CSV files to their respective folders (i.e., class_1, class_1_centroid, class_1_outliers), run [`csv_to_folders_diversity.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/csv_to_folders_diversity.py).
 
-### 2.3. Sample data for labeling
+### 2.3. Sample data for domain expert labeling
+
+Having determined the classes (and images that belong to each class), the centroid images of each class, and the outlier images of each class, we need to sample data for the domain expert annotation. In the tutorial, the way such data was sampled was as follows:
+
+* Randolmly select *N* (i.e., 10) images from each class folder
+* Select the centroid image of each class
+* Select *M* (i.e., 5) outlier images of each class
+
