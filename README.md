@@ -90,4 +90,8 @@ This is similar to step 1.1, except that you don't need the [`test_and_save_prob
 
 To categorize unlabeled data into distinct groups, you can use the [`k_means.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/k_means.py) script. In this script, you can specify the number of clusters you want, which is denoted as `k`. For example, in this script `k=5`, which will create 5 clusters. 
 
-The script will generate *k* CSV files, named as `class_1.csv`, `class_2.csv`, ..., `class_5.csv`. Each of these CSV files contains information about the images assigned to its respective class. This information includes the image's name, whether it serves as the representative centroid image for that class, and if the image is identified as an outlier.
+The script will generate *k* CSV files, named as `class_1.csv`, `class_2.csv`, ..., `class_5.csv`. Each of these CSV files contains information about the images assigned to its respective class. This information includes the image's name, whether it serves as the representative centroid image for that class, and if the image is identified as an outlier. The content in the CSV file would look something like the following:
+
+<div align="center">
+  <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/k_means.png" alt="table" width="500"/>
+</div>
