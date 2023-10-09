@@ -74,7 +74,7 @@ Having calculated the least confidence scores, we will now select the top *N* sa
 
 In the previous step, you selected a sample of data and labeled it. These newly labeled images would now be added to your existing training dataset. Let's say you chose 50 images to label. If your training data initially contained *2* images, after adding the newly labeled images, your training dataset should now have a total of *52* images.
 
-Once you've completed this step, go ahead and run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you should go back and repeat steps 1.1 through 1.4.
+Once you've completed this step, go ahead and run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This will train your model again, but this time using the updated training dataset. If the model's classification performance (i.e., test accuracy) still doesn't meet your expectations, you can go back and repeat steps 1.1 through 1.4.
 
 ## 2. Diversity sampling
 
@@ -115,4 +115,10 @@ From the previously identified centroid images for each class, we include these 
 We also include a set number of outlier images from each class. In this case, *M* (i.e., *M=5*) outlier images per class are chosen. These outlier images are different from the typical images in the class and can help in identifying unusual or atypical cases.
 
 To carry out the above steps, you can run this script: [`move_images_class_diversity.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/move_images_class_diversity.py).
+
+### 2.4. Add new labeled data to the training dataset
+
+After you have collected and labeled your data, the next step is to incorporate this new data into your existing training dataset. Let's assume you had *5* classes and selected *10* random images, *1* centroid image, and *5* outlier images from each class. If your training data originally contained only *2* images, after adding these newly labeled images, your training dataset will now consist of a total of *82* images.
+
+Once you have completed this data integration, proceed to run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This script will retrain your model using the updated training dataset. If the model's classification performance (i.e. test accuracy) still does not meet your expectations, you can revisit and repeat steps 2.1 through 2.4 as needed.
 
