@@ -100,9 +100,16 @@ To move the images listed in the CSV files to their respective folders (i.e., cl
 
 ### 2.3. Sample data for domain expert labeling
 
-Having determined the classes (and images that belong to each class), the centroid images of each class, and the outlier images of each class, we need to sample data for the domain expert annotation. In the tutorial, the way such data was sampled was as follows:
+After identifying the classes and determining which images belong to each class, as well as finding the centroid images and outlier images for each class, the next step is to gather a sample of data for domain expert labeling. In the tutorial, this was done using the following procedure:
 
-* Randolmly select *N* (i.e., 10) images from each class folder
-* Select the centroid image of each class
-* Select *M* (i.e., 5) outlier images of each class
+1. **Randomly select N images from each class folder**
+   - Randomly choose *N* (i.e., *N=10*) images from each class folder.
+
+2. **Select the centroid image of each class**
+   - From the previously identified centroid images for each class, we include these as part of our sample data. These centroid images represent the representative image for each class.
+
+3. **Select M outlier images of each class**
+   - We also include a set number of outlier images from each class. In this case, *M* (i.e., *M=5*) outlier images per class are chosen. These outlier images are different from the typical images in the class and can help in identifying unusual or atypical cases.
+
+To carry out the above steps, you can run this script: [`move_images_class_diversity.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/move_images_class_diversity.py).
 
