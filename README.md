@@ -6,8 +6,7 @@
 
 This is the official GitHub repository for the [Radiologist-in-the-Loop AI Tutorial](https://radiologistintheloop.ai/) at MICCAI 2023! This repository serves as a companion to the tutorial, providing resources, code examples, and materials to enhance your learning experience. 🧠💻📚
 
-<span style="background-color:yellow">**⚠️Attention⚠️**</span> Please keep an eye on this repository, as it will be regularly updated with relevant content.
-
+⚠️<mark>Attention</mark>⚠️ Please keep an eye on this repository, as it will be regularly updated with relevant content.
 
 ## Setup
 
