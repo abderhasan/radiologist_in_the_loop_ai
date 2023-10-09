@@ -87,3 +87,5 @@ Once you've completed this step, go ahead and run the [`simple_classifier.py`](h
 This is similar to step 1.1, except that you don't need the [`test_and_save_probabilities_unlabeled()`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py#L125) function in `simple_classifier.py`. So, you can comment out the function from the classifier when working on diversity sampling.
 
 ### 2.2. K-means
+
+Run the [`k_means.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/k_means.py) script to put the unlabeled data into different classes.
