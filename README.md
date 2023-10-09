@@ -84,4 +84,4 @@ Once you've completed this step, go ahead and run the [`simple_classifier.py`](h
 
 ### 2.1. Train the binary classifier
 
-This is similar to step 1.1.
+This is similar to step 1.1, except that you don't need the `test_and_save_probabilities_unlabeled()` function in `simple_classifier.py`. So, you can comment out the function from the classifier when working on diversity sampling.
