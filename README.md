@@ -124,11 +124,11 @@ After you have collected and labeled your data, the next step is to incorporate 
 
 Once you have completed this data integration, proceed to run the [`simple_classifier.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/simple_classifier.py) script. This script will retrain your model using the updated training dataset. If the model's classification performance (i.e. test accuracy) still does not meet your expectations, you can revisit and repeat steps 2.1 through 2.4 as needed.
 
-## Resources
+## References
 
-1. Settles, B., 2012. *Active learning: Synthesis lectures on artificial intelligence and machine learning Uncertainty sampling*. Long Island, NY: Morgan & Clay Pool.
+1. Settles, B., 2012. [*Active learning: Synthesis lectures on artificial intelligence and machine learning Uncertainty sampling*](https://link.springer.com/book/10.1007/978-3-031-01560-1). Long Island, NY: Morgan & Clay Pool.
 
-2. Monarch, R., 2021. *Human-in-the-Loop machine learning: Active learning and annotation for human-centered AI*. Manning Publications Co.
+2. Monarch, R., 2021. [*Human-in-the-Loop machine learning: Active learning and annotation for human-centered AI*](https://www.manning.com/books/human-in-the-loop-machine-learning?experiment=A). Manning Publications Co.
 
-3. Rädsch, T., Reinke, A., Weru, V., Tizabi, M.D., Schreck, N., Kavur, A.E., Pekdemir, B., Roß, T., Kopp-Schneider, A. and Maier-Hein, L., 2023. Labelling instructions matter in biomedical image analysis. *Nature Machine Intelligence*, 5(3), pp.273-283.
+3. Rädsch, T., Reinke, A., Weru, V., Tizabi, M.D., Schreck, N., Kavur, A.E., Pekdemir, B., Roß, T., Kopp-Schneider, A. and Maier-Hein, L., 2023. [*Labelling instructions matter in biomedical image analysis*](https://www.nature.com/articles/s42256-023-00625-5). Nature Machine Intelligence, 5(3), pp.273-283.
 
