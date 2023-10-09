@@ -96,4 +96,4 @@ The script will generate *k* CSV files, named as `class_1.csv`, `class_2.csv`, .
   <img src="https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/imgs/k_means.png" alt="table" width="500"/>
 </div>
 
-To move the images listed in the CSV files to their respective folders (i.e., class_1, class_1_centroid, class_1_outliers), run [`csv_to_folders_diversity.py`]*https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/csv_to_folders_diversity.py).
+To move the images listed in the CSV files to their respective folders (i.e., class_1, class_1_centroid, class_1_outliers), run [`csv_to_folders_diversity.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/csv_to_folders_diversity.py).
