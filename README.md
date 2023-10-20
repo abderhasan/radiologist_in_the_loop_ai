@@ -70,7 +70,7 @@ The results in `least_confidence_scores.csv` will be sorted in ascending order. 
 
 ### 1.3. Sample data for domain expert labeling
 
-Having calculated the least confidence scores, we will now select the top *N* samples that will be labeled by the domain expert (i.e., radiologist). To accomplish this, you can execute the `select_data.py` script; in this script, the first *50* samples are selected, but you can change the number of samples you would like to select.
+Having calculated the least confidence scores, we will now select the top *N* samples that will be labeled by the domain expert (i.e., radiologist). To accomplish this, you can execute the [`select_data.py`](https://github.com/abderhasan/radiologist_in_the_loop_ai/blob/main/select_data.py) script; in this script, the first *50* samples are selected, but you can change the number of samples you would like to select.
 
 ### 1.4. Add new labeled data to the training dataset
 
