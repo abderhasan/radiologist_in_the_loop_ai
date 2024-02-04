@@ -22,7 +22,7 @@ Assume your class names are `A` and `B`. In your main project folder, do the fol
    - `validation`: This folder contains the images used for neural network validation.
    - `test`: This folder contains the images used for testing the trained model.
 
-3. Within the `training`, `validation', and `test` subfolders, create two more subfolders for each class:
+3. Within the `training`, `validation`, and `test` subfolders, create two more subfolders for each class:
    - For `training` create folders named `A` and `B`.
    - For `validation` create folders named `A` and `B`.
    - For `test` create folders named `A` and `B`.
